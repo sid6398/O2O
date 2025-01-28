@@ -32,6 +32,10 @@ body {
   border-radius: 10px;
 }
 
+/* .business-dashboard .gray-background{
+  
+} */
+
 .business-dashboard .sidebar {
   display: flex;
   flex-direction: column;
@@ -61,6 +65,14 @@ a {
   flex-direction: column;
   justify-content:space-evenly;
   height: 100%;
+}
+
+.top-categories .footwear-accessories .card:nth-child(1){
+  background-color: lightgoldenrodyellow;
+}
+
+.top-categories .footwear-accessories .card:nth-child(2){
+  background-color: lightgreen;
 }
 
 .border-right {

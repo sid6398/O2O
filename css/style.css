@@ -1,0 +1,70 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  overflow-x: hidden;
+  transition: opacity 0.5s 0.3s ease-in-out;
+}
+
+.business-dashboard .left,
+.right,
+.sidebar {
+  padding: 30px;
+}
+
+.business-dashboard .left .cards .card {
+  border-radius: 10px;
+}
+
+.business-dashboard .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.business-dashboard .sidebar .nav-links ul li i,
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.business-dashboard .sidebar .nav-links ul li a:focus {
+  font-weight: 700;
+}
+
+.business-dashboard .sidebar .user .upgrade-link a {
+  background-color: rgba(255, 0, 0, 0.2);
+  font-size: 12px;
+  padding: 4px 8px;
+  font-weight: 600;
+}
+
+.business-dashboard .offcanvas-body{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  height: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  .business-dashboard .sidebar{
+    display: none;
+  }
+}
